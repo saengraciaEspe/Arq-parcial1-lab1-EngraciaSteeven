@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arq-parcial1-lab1-EngraciaSteeven", "Arq-parcial1-lab1-EngraciaSteeven\Arq-parcial1-lab1-EngraciaSteeven.csproj", "{F92F67B9-43A5-4D0C-8B26-B0B67309E02D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClienteConsola_EngraciaSteeven", "ClienteConsola_EngraciaSteeven\ClienteConsola_EngraciaSteeven.csproj", "{43284FFE-6744-471D-889A-F5760BB87D66}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F92F67B9-43A5-4D0C-8B26-B0B67309E02D} = {F92F67B9-43A5-4D0C-8B26-B0B67309E02D}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F92F67B9-43A5-4D0C-8B26-B0B67309E02D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F92F67B9-43A5-4D0C-8B26-B0B67309E02D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F92F67B9-43A5-4D0C-8B26-B0B67309E02D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F92F67B9-43A5-4D0C-8B26-B0B67309E02D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43284FFE-6744-471D-889A-F5760BB87D66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43284FFE-6744-471D-889A-F5760BB87D66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43284FFE-6744-471D-889A-F5760BB87D66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43284FFE-6744-471D-889A-F5760BB87D66}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DAB18BF8-2296-4FC4-B295-F093E5089C36}
+	EndGlobalSection
+EndGlobal

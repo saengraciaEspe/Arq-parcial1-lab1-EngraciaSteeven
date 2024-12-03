@@ -1,0 +1,6 @@
+@Arq_parcial1_lab1_EngraciaSteeven_HostAddress = http://localhost:5233
+
+GET {{Arq_parcial1_lab1_EngraciaSteeven_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
