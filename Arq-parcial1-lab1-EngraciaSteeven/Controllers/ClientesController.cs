@@ -1,9 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Arq_parcial1_lab1_EngraciaSteeven.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Arq_parcial1_lab1_EngraciaSteeven.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class ClientesController : ControllerBase
