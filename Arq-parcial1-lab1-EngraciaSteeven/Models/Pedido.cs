@@ -14,6 +14,4 @@ public partial class Pedido
     [Required]
     [StringLength(100)]
     public int? IdCliente { get; set; }
-
-    public virtual Cliente? IdClienteNavigation { get; set; }
 }
